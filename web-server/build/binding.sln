@@ -1,0 +1,57 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2015
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "(Informatics)", "..\Informatics", "{E814A26A-2415-DAA5-4FD4-BF6AFE14AA60}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "(IoT)", "..\Informatics\IoT", "{7E767A8E-3E27-20BF-3CB2-56D1E703860F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "(Project)", "..\Informatics\IoT\Project", "{92050D7C-3E45-DBF2-DD71-1B6955947B86}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "(SmartLighting)", "..\Informatics\IoT\Project\SmartLighting", "{6DE13DED-8C32-3190-52E4-AAF0224BC27E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "(Web)", "..\Informatics\IoT\Project\SmartLighting\Web", "{91BFF30B-B5AB-6B6A-050E-4D32DDD19F2B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "(node-addon-api)", "..\Informatics\IoT\Project\SmartLighting\Web\smartlight-web\node_modules\node-addon-api", "{EB52036E-C263-78A5-CCA8-60B5321D2DA6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "(node_modules)", "..\Informatics\IoT\Project\SmartLighting\Web\smartlight-web\node_modules", "{D8931F20-8C50-A15C-B660-C86195A57C46}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "(smartlight-web)", "..\Informatics\IoT\Project\SmartLighting\Web\smartlight-web", "{9A99ECF2-B330-AC65-8048-58C1F422BCAA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "(src)", "..\Informatics\IoT\Project\SmartLighting\Web\smartlight-web\node_modules\node-addon-api\src", "{C35F4B60-7C82-D4A1-8176-FD00D473E342}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "addon", "addon.vcxproj", "{688A0851-3DA8-0EF5-45E7-D355C9405146}"
+	ProjectSection(ProjectDependencies) = postProject
+		{5DCB089A-582B-5B05-8B95-19FF7AB531C2} = {5DCB089A-582B-5B05-8B95-19FF7AB531C2}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "nothing", "..\node_modules\node-addon-api\src\nothing.vcxproj", "{5DCB089A-582B-5B05-8B95-19FF7AB531C2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5DCB089A-582B-5B05-8B95-19FF7AB531C2}.Debug|x64.ActiveCfg = Debug|x64
+		{5DCB089A-582B-5B05-8B95-19FF7AB531C2}.Debug|x64.Build.0 = Debug|x64
+		{5DCB089A-582B-5B05-8B95-19FF7AB531C2}.Release|x64.ActiveCfg = Release|x64
+		{5DCB089A-582B-5B05-8B95-19FF7AB531C2}.Release|x64.Build.0 = Release|x64
+		{688A0851-3DA8-0EF5-45E7-D355C9405146}.Debug|x64.ActiveCfg = Debug|x64
+		{688A0851-3DA8-0EF5-45E7-D355C9405146}.Debug|x64.Build.0 = Debug|x64
+		{688A0851-3DA8-0EF5-45E7-D355C9405146}.Release|x64.ActiveCfg = Release|x64
+		{688A0851-3DA8-0EF5-45E7-D355C9405146}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{7E767A8E-3E27-20BF-3CB2-56D1E703860F} = {E814A26A-2415-DAA5-4FD4-BF6AFE14AA60}
+		{92050D7C-3E45-DBF2-DD71-1B6955947B86} = {7E767A8E-3E27-20BF-3CB2-56D1E703860F}
+		{6DE13DED-8C32-3190-52E4-AAF0224BC27E} = {92050D7C-3E45-DBF2-DD71-1B6955947B86}
+		{91BFF30B-B5AB-6B6A-050E-4D32DDD19F2B} = {6DE13DED-8C32-3190-52E4-AAF0224BC27E}
+		{9A99ECF2-B330-AC65-8048-58C1F422BCAA} = {91BFF30B-B5AB-6B6A-050E-4D32DDD19F2B}
+		{C35F4B60-7C82-D4A1-8176-FD00D473E342} = {EB52036E-C263-78A5-CCA8-60B5321D2DA6}
+		{EB52036E-C263-78A5-CCA8-60B5321D2DA6} = {D8931F20-8C50-A15C-B660-C86195A57C46}
+		{D8931F20-8C50-A15C-B660-C86195A57C46} = {9A99ECF2-B330-AC65-8048-58C1F422BCAA}
+		{5DCB089A-582B-5B05-8B95-19FF7AB531C2} = {C35F4B60-7C82-D4A1-8176-FD00D473E342}
+	EndGlobalSection
+EndGlobal

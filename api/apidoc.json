@@ -1,0 +1,8 @@
+{
+  "name": "SmartHome API documentation",
+  "version": "2.0.0",
+  "description": "API function for SmartHome",
+  "template": {
+    "forceLanguage": "en"
+  }
+}
